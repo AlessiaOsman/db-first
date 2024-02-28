@@ -4,8 +4,14 @@ Per la consegna, potete inserire la vostra tabella in un file markdown come vi h
 Colonne | Tipo | Attributi
 --- | --- | ---
 id | BIGINT | PRIMARY_KEY | AUTO_INCREMENT
-Nome | VARCHAR | NOTNULL
-Porte | TINYINT | NOTNULL DEFAULT('3')
+Marca | VARCHAR | NOTNULL
+Modello | VARCHAR | NOTNULL
+Prezzo | INT | NOTNULL
 km | INT | NOTNULL
+Anni | SMALL | NOTNULL
+Alimentazione | VARCHAR | NOTNULL
+Colore | VARCHAR | NOTNULL
+Porte | TINYINT | NOTNULL DEFAULT('3')
 Cambio | CHAR(1) | NOTNULL DEFAULT('m')
 Stato | CHAR(1) | NULL
+
