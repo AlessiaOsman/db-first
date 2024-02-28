@@ -3,10 +3,11 @@ Per la consegna, potete inserire la vostra tabella in un file markdown come vi h
 
 Colonne | Tipo | Attributi
 --- | --- | ---
-id | BIGINT | PRIMARY_KEY | AUTO_INCREMENT
+id | BIGINT | PRIMARY_KEY  AUTO_INCREMENT
 Marca | VARCHAR | NOTNULL
 Modello | VARCHAR | NOTNULL
 Prezzo | INT | NOTNULL
+Prezzo_originale | INT | NULL
 km | INT | NOTNULL
 Anni | SMALL | NOTNULL
 Alimentazione | VARCHAR | NOTNULL
